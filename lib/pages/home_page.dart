@@ -19,6 +19,9 @@ class HomePage extends StatelessWidget {
                 colorBlendMode: BlendMode.softLight,
               ),
               Container(
+                decoration: BoxDecoration(
+                  color: kCardBackgroundColor.toColor(),
+                ),
                 child: Column(
                   children: <Widget>[
                     // this probably will be a textspan / richtext
