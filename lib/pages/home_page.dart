@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
       body: Container(
         child: Column(
           children: <Widget>[
-            Image.asset('assets/image-header-mobile.jpg'),
+            Image.asset('assets/image-header-mobile.jpg', width: 290),
             Container(
               child: Column(
                 children: <Widget>[
