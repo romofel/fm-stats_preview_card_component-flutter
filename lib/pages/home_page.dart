@@ -10,7 +10,12 @@ class HomePage extends StatelessWidget {
         color: kMainBackgroundColor.toColor(),
         child: Column(
           children: <Widget>[
-            Image.asset('assets/image-header-mobile.jpg', width: 290),
+            Image.asset(
+              'assets/image-header-mobile.jpg',
+              width: 290,
+              color: kAccentColor.toColor(),
+              colorBlendMode: BlendMode.softLight,
+            ),
             Container(
               child: Column(
                 children: <Widget>[
