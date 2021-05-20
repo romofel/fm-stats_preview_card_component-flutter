@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_version/constants.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -6,6 +7,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Container(
         padding: const EdgeInsets.symmetric(vertical: 80, horizontal: 20),
+        color: kMainBackgroundColor.toColor(),
         child: Column(
           children: <Widget>[
             Image.asset('assets/image-header-mobile.jpg', width: 290),
