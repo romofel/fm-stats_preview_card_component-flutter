@@ -5,6 +5,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        padding: const EdgeInsets.symmetric(vertical: 80, horizontal: 20),
         child: Column(
           children: <Widget>[
             Image.asset('assets/image-header-mobile.jpg', width: 290),
