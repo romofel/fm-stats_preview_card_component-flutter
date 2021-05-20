@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
       body: Container(
         child: Column(
           children: <Widget>[
-            FlutterLogo(),
+            Image.asset('assets/image-header-mobile.jpg'),
             Container(
               child: Column(
                 children: <Widget>[
