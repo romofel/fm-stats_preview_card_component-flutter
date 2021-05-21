@@ -16,6 +16,6 @@ const kMainParagraphColor = HSLColor.fromAHSL(.75, 0, 0, 1);
 const kStatHeadingsColor = HSLColor.fromAHSL(.6, 0, 0, 1);
 
 // Typography
-const kBodyCopyFontSize = 15;
+const double kBodyCopyFontSize = 15;
 const kInterFontWeights = [400, 700];
 const kLexendDecaFontWeights = [400];
