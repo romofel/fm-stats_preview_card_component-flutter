@@ -45,7 +45,7 @@ class HomePage extends StatelessWidget {
                             color: kAccentColor.toColor(),
                           ),
                         ),
-                        TextSpan(text: ' that help your business grow'),
+                        TextSpan(text: ' that help your business grow.'),
                       ],
                     )),
                     Text(
