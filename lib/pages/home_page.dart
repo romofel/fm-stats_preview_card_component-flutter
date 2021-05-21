@@ -25,29 +25,32 @@ class HomePage extends StatelessWidget {
                   color: kCardBackgroundColor.toColor(),
                 ),
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
-                    // this probably will be a textspan / richtext
-                    Text.rich(TextSpan(
-                      style: GoogleFonts.inter(
-                        textStyle: TextStyle(
-                          color: kMainHeadingColor.toColor(),
-                          fontSize: kBodyCopyFontSize * 1.8,
-                          fontWeight: FontWeight.w700,
-                        ),
-                      ),
-                      children: [
-                        TextSpan(
-                          text: 'Get',
-                        ),
-                        TextSpan(
-                          text: ' insights',
-                          style: TextStyle(
-                            color: kAccentColor.toColor(),
+                    Text.rich(
+                      TextSpan(
+                        style: GoogleFonts.inter(
+                          textStyle: TextStyle(
+                            color: kMainHeadingColor.toColor(),
+                            fontSize: kBodyCopyFontSize * 1.8,
+                            fontWeight: FontWeight.w700,
                           ),
                         ),
-                        TextSpan(text: ' that help your business grow.'),
-                      ],
-                    )),
+                        children: [
+                          TextSpan(
+                            text: 'Get',
+                          ),
+                          TextSpan(
+                            text: ' insights',
+                            style: TextStyle(
+                              color: kAccentColor.toColor(),
+                            ),
+                          ),
+                          TextSpan(text: ' that help your business grow.'),
+                        ],
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
                     Text(
                         'Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.'),
                     Column(
