@@ -40,12 +40,12 @@ class HomePage extends StatelessWidget {
                           text: 'Get',
                         ),
                         TextSpan(
-                          text: 'insights',
+                          text: ' insights',
                           style: TextStyle(
                             color: kAccentColor.toColor(),
                           ),
                         ),
-                        TextSpan(text: 'that help your business grow'),
+                        TextSpan(text: ' that help your business grow'),
                       ],
                     )),
                     Text(
