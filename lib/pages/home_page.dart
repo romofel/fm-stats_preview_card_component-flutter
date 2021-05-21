@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+
 import 'package:flutter_version/constants.dart';
 
 class HomePage extends StatelessWidget {
@@ -26,9 +28,23 @@ class HomePage extends StatelessWidget {
                   children: <Widget>[
                     // this probably will be a textspan / richtext
                     Text.rich(TextSpan(
+                      style: GoogleFonts.inter(
+                        textStyle: TextStyle(
+                          color: kMainHeadingColor.toColor(),
+                          fontSize: kBodyCopyFontSize * 1.5,
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
                       children: [
-                        TextSpan(text: 'Get'),
-                        TextSpan(text: 'insights'),
+                        TextSpan(
+                          text: 'Get',
+                        ),
+                        TextSpan(
+                          text: 'insights',
+                          style: TextStyle(
+                            color: kAccentColor.toColor(),
+                          ),
+                        ),
                         TextSpan(text: 'that help your business grow'),
                       ],
                     )),
