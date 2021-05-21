@@ -53,7 +53,15 @@ class HomePage extends StatelessWidget {
                         textAlign: TextAlign.center,
                       ),
                       Text(
-                          'Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.'),
+                          'Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.',
+                          textAlign: TextAlign.center,
+                          style: GoogleFonts.inter(
+                            textStyle: TextStyle(
+                              color: kMainParagraphColor.toColor(),
+                              fontSize: kBodyCopyFontSize,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          )),
                       Column(
                         children: <Widget>[
                           Column(
