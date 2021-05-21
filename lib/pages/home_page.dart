@@ -66,20 +66,68 @@ class HomePage extends StatelessWidget {
                         children: <Widget>[
                           Column(
                             children: <Widget>[
-                              Text('10k+'),
-                              Text('COMPANIES'),
+                              Text('10k+',
+                                  textAlign: TextAlign.center,
+                                  style: GoogleFonts.inter(
+                                    textStyle: TextStyle(
+                                      color: kStatsColor.toColor(),
+                                      fontSize: kBodyCopyFontSize,
+                                      fontWeight: FontWeight.w400,
+                                    ),
+                                  )),
+                              Text('COMPANIES',
+                                  textAlign: TextAlign.center,
+                                  style: GoogleFonts.inter(
+                                    textStyle: TextStyle(
+                                      color: kStatHeadingsColor.toColor(),
+                                      fontSize: kBodyCopyFontSize,
+                                      fontWeight: FontWeight.w400,
+                                    ),
+                                  )),
                             ],
                           ),
                           Column(
                             children: <Widget>[
-                              Text('314'),
-                              Text('TEMPLATES'),
+                              Text('314',
+                                  textAlign: TextAlign.center,
+                                  style: GoogleFonts.inter(
+                                    textStyle: TextStyle(
+                                      color: kStatsColor.toColor(),
+                                      fontSize: kBodyCopyFontSize,
+                                      fontWeight: FontWeight.w400,
+                                    ),
+                                  )),
+                              Text('TEMPLATES',
+                                  textAlign: TextAlign.center,
+                                  style: GoogleFonts.inter(
+                                    textStyle: TextStyle(
+                                      color: kStatHeadingsColor.toColor(),
+                                      fontSize: kBodyCopyFontSize,
+                                      fontWeight: FontWeight.w400,
+                                    ),
+                                  )),
                             ],
                           ),
                           Column(
                             children: <Widget>[
-                              Text('12M+'),
-                              Text('QUERIES'),
+                              Text('12M+',
+                                  textAlign: TextAlign.center,
+                                  style: GoogleFonts.inter(
+                                    textStyle: TextStyle(
+                                      color: kStatsColor.toColor(),
+                                      fontSize: kBodyCopyFontSize,
+                                      fontWeight: FontWeight.w400,
+                                    ),
+                                  )),
+                              Text('QUERIES',
+                                  textAlign: TextAlign.center,
+                                  style: GoogleFonts.inter(
+                                    textStyle: TextStyle(
+                                      color: kStatHeadingsColor.toColor(),
+                                      fontSize: kBodyCopyFontSize,
+                                      fontWeight: FontWeight.w400,
+                                    ),
+                                  )),
                             ],
                           ),
                         ],
