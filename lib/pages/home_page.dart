@@ -31,7 +31,7 @@ class HomePage extends StatelessWidget {
                       style: GoogleFonts.inter(
                         textStyle: TextStyle(
                           color: kMainHeadingColor.toColor(),
-                          fontSize: kBodyCopyFontSize * 1.5,
+                          fontSize: kBodyCopyFontSize * 1.8,
                           fontWeight: FontWeight.w700,
                         ),
                       ),
