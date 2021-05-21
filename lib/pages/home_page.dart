@@ -25,7 +25,13 @@ class HomePage extends StatelessWidget {
                 child: Column(
                   children: <Widget>[
                     // this probably will be a textspan / richtext
-                    Text('Get insights that help your business grow'),
+                    Text.rich(TextSpan(
+                      children: [
+                        TextSpan(text: 'Get'),
+                        TextSpan(text: 'insights'),
+                        TextSpan(text: 'that help your business grow'),
+                      ],
+                    )),
                     Text(
                         'Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.'),
                     Column(
