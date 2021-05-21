@@ -7,78 +7,80 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        padding: const EdgeInsets.symmetric(vertical: 80, horizontal: 20),
-        color: kMainBackgroundColor.toColor(),
-        child: ClipRRect(
-          borderRadius: BorderRadius.circular(8),
-          child: Column(
-            children: <Widget>[
-              Image.asset(
-                'assets/image-header-mobile.jpg',
-                width: 290,
-                color: kAccentColor.toColor(),
-                colorBlendMode: BlendMode.softLight,
-              ),
-              Container(
-                decoration: BoxDecoration(
-                  color: kCardBackgroundColor.toColor(),
+      body: SingleChildScrollView(
+        child: Container(
+          padding: const EdgeInsets.symmetric(vertical: 80, horizontal: 20),
+          color: kMainBackgroundColor.toColor(),
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(8),
+            child: Column(
+              children: <Widget>[
+                Image.asset(
+                  'assets/image-header-mobile.jpg',
+                  width: 290,
+                  color: kAccentColor.toColor(),
+                  colorBlendMode: BlendMode.softLight,
                 ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: <Widget>[
-                    Text.rich(
-                      TextSpan(
-                        style: GoogleFonts.inter(
-                          textStyle: TextStyle(
-                            color: kMainHeadingColor.toColor(),
-                            fontSize: kBodyCopyFontSize * 1.8,
-                            fontWeight: FontWeight.w700,
-                          ),
-                        ),
-                        children: [
-                          TextSpan(
-                            text: 'Get',
-                          ),
-                          TextSpan(
-                            text: ' insights',
-                            style: TextStyle(
-                              color: kAccentColor.toColor(),
+                Container(
+                  decoration: BoxDecoration(
+                    color: kCardBackgroundColor.toColor(),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: <Widget>[
+                      Text.rich(
+                        TextSpan(
+                          style: GoogleFonts.inter(
+                            textStyle: TextStyle(
+                              color: kMainHeadingColor.toColor(),
+                              fontSize: kBodyCopyFontSize * 1.8,
+                              fontWeight: FontWeight.w700,
                             ),
                           ),
-                          TextSpan(text: ' that help your business grow.'),
+                          children: [
+                            TextSpan(
+                              text: 'Get',
+                            ),
+                            TextSpan(
+                              text: ' insights',
+                              style: TextStyle(
+                                color: kAccentColor.toColor(),
+                              ),
+                            ),
+                            TextSpan(text: ' that help your business grow.'),
+                          ],
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                      Text(
+                          'Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.'),
+                      Column(
+                        children: <Widget>[
+                          Column(
+                            children: <Widget>[
+                              Text('10k+'),
+                              Text('COMPANIES'),
+                            ],
+                          ),
+                          Column(
+                            children: <Widget>[
+                              Text('314'),
+                              Text('TEMPLATES'),
+                            ],
+                          ),
+                          Column(
+                            children: <Widget>[
+                              Text('12M+'),
+                              Text('QUERIES'),
+                            ],
+                          ),
                         ],
                       ),
-                      textAlign: TextAlign.center,
-                    ),
-                    Text(
-                        'Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.'),
-                    Column(
-                      children: <Widget>[
-                        Column(
-                          children: <Widget>[
-                            Text('10k+'),
-                            Text('COMPANIES'),
-                          ],
-                        ),
-                        Column(
-                          children: <Widget>[
-                            Text('314'),
-                            Text('TEMPLATES'),
-                          ],
-                        ),
-                        Column(
-                          children: <Widget>[
-                            Text('12M+'),
-                            Text('QUERIES'),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
