@@ -26,8 +26,8 @@ class HomePage extends StatelessWidget {
                     color: kCardBackgroundColor.toColor(),
                   ),
                   child: Padding(
-                    padding:
-                        const EdgeInsets.symmetric(vertical: 20, horizontal: 8),
+                    padding: const EdgeInsets.symmetric(
+                        vertical: 20, horizontal: 14),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget>[
