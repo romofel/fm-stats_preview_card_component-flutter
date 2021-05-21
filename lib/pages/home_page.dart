@@ -72,7 +72,7 @@ class HomePage extends StatelessWidget {
                                     textStyle: TextStyle(
                                       color: kStatsColor.toColor(),
                                       fontSize: kBodyCopyFontSize,
-                                      fontWeight: FontWeight.w400,
+                                      fontWeight: FontWeight.w700,
                                     ),
                                   )),
                               Text('COMPANIES',
@@ -94,7 +94,7 @@ class HomePage extends StatelessWidget {
                                     textStyle: TextStyle(
                                       color: kStatsColor.toColor(),
                                       fontSize: kBodyCopyFontSize,
-                                      fontWeight: FontWeight.w400,
+                                      fontWeight: FontWeight.w700,
                                     ),
                                   )),
                               Text('TEMPLATES',
@@ -116,7 +116,7 @@ class HomePage extends StatelessWidget {
                                     textStyle: TextStyle(
                                       color: kStatsColor.toColor(),
                                       fontSize: kBodyCopyFontSize,
-                                      fontWeight: FontWeight.w400,
+                                      fontWeight: FontWeight.w700,
                                     ),
                                   )),
                               Text('QUERIES',
