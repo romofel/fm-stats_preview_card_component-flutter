@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
               children: <Widget>[
                 Image.asset(
                   'assets/image-header-mobile.jpg',
-                  width: 290,
+                  // width: 290,
                   color: kAccentColor.toColor(),
                   colorBlendMode: BlendMode.softLight,
                 ),
