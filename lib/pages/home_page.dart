@@ -61,6 +61,7 @@ class HomePage extends StatelessWidget {
                             textAlign: TextAlign.center,
                             style: GoogleFonts.inter(
                               textStyle: TextStyle(
+                                height: 1.6,
                                 color: kMainParagraphColor.toColor(),
                                 fontSize: kBodyCopyFontSize,
                                 fontWeight: FontWeight.w400,
