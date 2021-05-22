@@ -76,7 +76,7 @@ class HomePage extends StatelessWidget {
                                     style: GoogleFonts.inter(
                                       textStyle: TextStyle(
                                         color: kStatsColor.toColor(),
-                                        fontSize: kBodyCopyFontSize,
+                                        fontSize: kBodyCopyFontSize * 1.5,
                                         fontWeight: FontWeight.w700,
                                       ),
                                     )),
@@ -85,7 +85,7 @@ class HomePage extends StatelessWidget {
                                     style: GoogleFonts.inter(
                                       textStyle: TextStyle(
                                         color: kStatHeadingsColor.toColor(),
-                                        fontSize: kBodyCopyFontSize,
+                                        fontSize: kBodyCopyFontSize - 4,
                                         fontWeight: FontWeight.w400,
                                       ),
                                     )),
@@ -99,7 +99,7 @@ class HomePage extends StatelessWidget {
                                     style: GoogleFonts.inter(
                                       textStyle: TextStyle(
                                         color: kStatsColor.toColor(),
-                                        fontSize: kBodyCopyFontSize,
+                                        fontSize: kBodyCopyFontSize * 1.5,
                                         fontWeight: FontWeight.w700,
                                       ),
                                     )),
@@ -108,7 +108,7 @@ class HomePage extends StatelessWidget {
                                     style: GoogleFonts.inter(
                                       textStyle: TextStyle(
                                         color: kStatHeadingsColor.toColor(),
-                                        fontSize: kBodyCopyFontSize,
+                                        fontSize: kBodyCopyFontSize - 4,
                                         fontWeight: FontWeight.w400,
                                       ),
                                     )),
@@ -122,7 +122,7 @@ class HomePage extends StatelessWidget {
                                     style: GoogleFonts.inter(
                                       textStyle: TextStyle(
                                         color: kStatsColor.toColor(),
-                                        fontSize: kBodyCopyFontSize,
+                                        fontSize: kBodyCopyFontSize * 1.5,
                                         fontWeight: FontWeight.w700,
                                       ),
                                     )),
@@ -131,7 +131,7 @@ class HomePage extends StatelessWidget {
                                     style: GoogleFonts.inter(
                                       textStyle: TextStyle(
                                         color: kStatHeadingsColor.toColor(),
-                                        fontSize: kBodyCopyFontSize,
+                                        fontSize: kBodyCopyFontSize - 4,
                                         fontWeight: FontWeight.w400,
                                       ),
                                     )),
