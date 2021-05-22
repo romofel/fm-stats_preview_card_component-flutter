@@ -68,8 +68,10 @@ class HomePage extends StatelessWidget {
                             )),
                         SizedBox(height: 32),
                         Column(
+                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: <Widget>[
                             Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
                               children: <Widget>[
                                 Text('10k+',
                                     textAlign: TextAlign.center,
@@ -93,6 +95,7 @@ class HomePage extends StatelessWidget {
                             ),
                             SizedBox(height: 24),
                             Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
                               children: <Widget>[
                                 Text('314',
                                     textAlign: TextAlign.center,
@@ -116,6 +119,7 @@ class HomePage extends StatelessWidget {
                             ),
                             SizedBox(height: 24),
                             Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
                               children: <Widget>[
                                 Text('12M+',
                                     textAlign: TextAlign.center,
