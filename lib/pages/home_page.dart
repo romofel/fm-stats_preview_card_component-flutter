@@ -55,6 +55,7 @@ class HomePage extends StatelessWidget {
                           ),
                           textAlign: TextAlign.center,
                         ),
+                        SizedBox(height: 16),
                         Text(
                             'Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.',
                             textAlign: TextAlign.center,
@@ -65,6 +66,7 @@ class HomePage extends StatelessWidget {
                                 fontWeight: FontWeight.w400,
                               ),
                             )),
+                        SizedBox(height: 32),
                         Column(
                           children: <Widget>[
                             Column(
@@ -89,6 +91,7 @@ class HomePage extends StatelessWidget {
                                     )),
                               ],
                             ),
+                            SizedBox(height: 24),
                             Column(
                               children: <Widget>[
                                 Text('314',
@@ -111,6 +114,7 @@ class HomePage extends StatelessWidget {
                                     )),
                               ],
                             ),
+                            SizedBox(height: 24),
                             Column(
                               children: <Widget>[
                                 Text('12M+',
